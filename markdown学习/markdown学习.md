@@ -2,7 +2,7 @@
 
 ## 1. 官方文档网址
 
-[官方文档网址](https://markdown.com.cn/)
+[https://markdown.com.cn/](https://markdown.com.cn/)
 
 ## 2. vscode必要插件
 
