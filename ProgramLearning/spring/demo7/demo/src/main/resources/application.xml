@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="userDao" class="dao.impl.UserDaoImpl" />
+    <!-- ref中的是在xml中定义的bean，而在name中的是在Java代码里面需要的bean -->
+    <bean id="userService" class="service.impl.UserServiceImpl" autowire="byName"/>
+</beans>
